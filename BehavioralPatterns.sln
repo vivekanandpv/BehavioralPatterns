@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{13AE6409-DB1E-4A8B-A81A-9EC0AF1EE3AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{13AE6409-DB1E-4A8B-A81A-9EC0AF1EE3AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{56661136-BAAE-4FFE-A98E-8691E51E4352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{56661136-BAAE-4FFE-A98E-8691E51E4352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{D76B5434-E362-4443-B371-FFD2764AD366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{D76B5434-E362-4443-B371-FFD2764AD366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{692EBBF4-9716-4552-B250-1BBE5B3AA127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{692EBBF4-9716-4552-B250-1BBE5B3AA127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{CE162583-8B7B-48A3-9E98-A8213D701BDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{692EBBF4-9716-4552-B250-1BBE5B3AA127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{692EBBF4-9716-4552-B250-1BBE5B3AA127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{692EBBF4-9716-4552-B250-1BBE5B3AA127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE162583-8B7B-48A3-9E98-A8213D701BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE162583-8B7B-48A3-9E98-A8213D701BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE162583-8B7B-48A3-9E98-A8213D701BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE162583-8B7B-48A3-9E98-A8213D701BDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
