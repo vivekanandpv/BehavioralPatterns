@@ -7,13 +7,14 @@ namespace Command {
             //  Section 6
             //  Client (user code) creates the commands
             ICommand approve = new ApproveCommand(new ManagerActionReceiver());
-            ICommand reject = new ApproveCommand(new ManagerActionReceiver());
+            ICommand reject = new RejectCommand(new ManagerActionReceiver());
 
             //  These commands are then plugged in for the invoker which is the framework code
             ApplicationInvoker invoker = new ApplicationInvoker(approve, reject);
 
             //  Emulating end-user interaction with the framework
             invoker.PressButton1();
+            invoker.PressButton2();
         }
     }
 
